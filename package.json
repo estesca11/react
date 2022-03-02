@@ -1,9 +1,15 @@
 {
-  "name": "react",
+  "name": "front",
   "version": "1.0.0",
   "description": "",
   "main": "minify.js",
-  "dependencies": {},
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-react": "^7.16.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
