@@ -1,0 +1,1 @@
+function formatName(a) { return a.firstName + " " + a.lastName } const user = { firstName: "Harper", lastName: "Perez" }, element =/*#__PURE__*/React.createElement("h1", null, "Hello, ", formatName(user), "!"); ReactDOM.render(element, document.getElementById("root"));
